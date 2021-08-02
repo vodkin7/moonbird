@@ -6,28 +6,46 @@
 
 <body style="background-color:powderblue;">
 	<style>
-		.fig {
+		.first_block {
 			text-align: center;
+			font-family: hack;
+			font-size: 175%;
+		}
+		.second_block {
+			font-family: hack;
+			font-size: 145%;
+		}
+		.foot_block {
+			position: fixed; /* Фиксированное положение */
+			left: 0; bottom: 0; /* Левый нижний угол */
+			padding: 10px; /* Поля вокруг текста */
+			background: #39b54a; /* Цвет фона */
+			color: #fff; /* Цвет текста */
+			width: 100%; /* Ширина слоя */
 		}
 	</style>
-	<p class="fig"><img src="moonbird.png" alt="Знак"></p>
-    <p style="text-align:center;"> * Сайт - портфолио * </p>
+	<p class="first_block"><img src="moonbird.png" alt="Знак"></p>
+    <p class="first_block"> * Сайт - портфолио * </p>
     <br></br>
-    <p>Запись первая: 02.08.21</p>
-    <p1 class="fig">
-		Я решил научиться программировать и в будующем изменить свою
+    <h1>Запись первая: 02.08.21</h1>
+    <p class="second_block">
+		*Я решил научиться программировать и в будующем изменить свою
 		профессию. Выбор пал на веб-разработку. HTML & CSS. Так я назову
 		свой первый проект. В процессе обучения на этом сайте портфолио,
 		все будет видоизменяться. Паралельно я создал репозиторий в
 		системе контроля версий git, и буду выкладывать код туда. В
 		процессе написания сайта портфолио, буду узнавать и пробовать
 		выложить и запустить сайт на собственном сервере(В планах купить
-		vps). Начало занятий 02.08.21 года.
-    </p1>
+		vps). Начало занятий 02.08.21 года.*
+    </p>
     
     <a href="https://github.com/vodkin7";>
 		<p style="text-align:center;">Ссылка на мой git hub</p>
     </a>
+    
+    <div class="foot_block">
+		&copy; 2021 Михаил Пахарев
+	</div>
 </body>
 
 </html>
