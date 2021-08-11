@@ -6,6 +6,13 @@
 	color: #fff; /* Цвет текста */
 	width: 100%; /* Ширина слоя */
 	text-align: center;
+	font-family: ubuntu;
+}
+
+.my_contact {
+	position: relative;
+	left: 0; top: +28em;
+	text-align: center;
 }
 
 h1 {
